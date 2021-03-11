@@ -1,0 +1,7 @@
+[vagrant]
+centos ansible_hosts=192.168.33.202
+ubuntu ansible_hosts=192.168.33.203
+
+[vagrant:vars]
+ansible_user=vagrant
+ansible_password=vagrant
